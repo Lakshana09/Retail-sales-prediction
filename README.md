@@ -15,58 +15,66 @@ Skills and Technologies: Skills: Machine Learning/Deep Learning Deployment, Time
 
 Data Understanding and Preprocessing:
 
-Handle missing values and convert date formats.
-Extract features like year, month, and week number.
-Normalize or scale numerical data.
+1] Handle missing values and convert date formats.
+2] Extract features like year, month, and week number.
+3] Normalize or scale numerical data.
+
 Exploratory Data Analysis (EDA):
 
-Visualize trends, seasonality, and the impact of holidays.
-Analyze correlations between sales and other features.
+1] Visualize trends, seasonality, and the impact of holidays.
+2] Analyze correlations between sales and other features.
+
 Feature Engineering:
 
-Create new features such as lagged sales, rolling averages, and holiday flags.
-Encode categorical variables as needed.
+1] Create new features such as lagged sales, rolling averages, and holiday flags.
+2] Encode categorical variables as needed.
+
 Model Selection and Training:
 
-Split data into training and validation sets.
-Train various models (e.g., ARIMA, Random Forest, LSTM).
-Evaluate models using metrics like RMSE and MAE, with a focus on holiday weeks.
+1]Split data into training and validation sets.
+2] Train various models (e.g., ARIMA, Random Forest, LSTM).
+3] Evaluate models using metrics like RMSE and MAE, with a focus on holiday weeks.
+
 Markdown Effect Analysis:
 
-Simulate sales with and without markdowns.
-Quantify the impact of markdowns on sales.
+1] Simulate sales with and without markdowns.
+2] Quantify the impact of markdowns on sales.
+
 Recommendations:
 
-Provide actionable insights for markdown strategies and holiday planning.
-Suggest improvements for future data collection.
+1] Provide actionable insights for markdown strategies and holiday planning.
+2] Suggest improvements for future data collection.
+
 Results:
 
-Sales Forecasts: Accurate weekly sales predictions for each department.
-Markdown Insights: Quantitative analysis of markdown impacts on sales.
-Strategic Recommendations: Data-driven suggestions for promotional and holiday strategies to maximize business impact.
+1] Sales Forecasts: Accurate weekly sales predictions for each department.
+2] Markdown Insights: Quantitative analysis of markdown impacts on sales.
+3] Strategic Recommendations: Data-driven suggestions for promotional and holiday strategies to maximize business impact.
+
 Project Evaluation Metrics:
 
-Root Mean Squared Error (RMSE)
-Mean Absolute Error (MAE)
-Weighted Metrics: Higher weights for holiday weeks to reflect their importance.
+1] Root Mean Squared Error (RMSE)
+2] Mean Absolute Error (MAE)
+3] Weighted Metrics: Higher weights for holiday weeks to reflect their importance.
+
 Home: Overview of the project, domain, and technologies used.
 
 Prediction: Input the details of the store, department, markdowns, and other features to get weekly sales predictions.
 
 Conclusion: Summary of model performance and final observations.
 
-Model Performance:
+## Model Performance:
 
-Linear Regressor Accuracy: 84.88%
-Random Forest Regressor Accuracy: 95.45%
-Decision Tree Regressor Accuracy: 94.08%
-K Neighbors Regressor Accuracy: 91.97%
-XGBoost Accuracy: 94.21%
-DNN Accuracy: 90.50% The Random Forest Regressor was chosen as the final model due to its highest accuracy of 95.45%.
+1] Linear Regressor Accuracy: 84.88%
+2] Random Forest Regressor Accuracy: 95.45%
+3] Decision Tree Regressor Accuracy: 94.08%
+4] K Neighbors Regressor Accuracy: 91.97%
+5] XGBoost Accuracy: 94.21%
+6] DNN Accuracy: 90.50% The Random Forest Regressor was chosen as the final model due to its highest accuracy of 95.45%.
 
-Final Observations:
+## Final Observations:
 
-Larger stores tend to have higher sales.
-Fuel Price and Unemployment rate significantly impact weekly sales.
-Temperature and Markdowns are crucial during key promotional events.
-Proper planning and execution of markdown strategies can drive substantial sales increases during holidays.
+1] Larger stores tend to have higher sales.
+2] Fuel Price and Unemployment rate significantly impact weekly sales.
+3] Temperature and Markdowns are crucial during key promotional events.
+4] Proper planning and execution of markdown strategies can drive substantial sales increases during holidays.
