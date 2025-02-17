@@ -15,9 +15,7 @@ Skills and Technologies: Skills: Machine Learning/Deep Learning Deployment, Time
 
 Data Understanding and Preprocessing:
 
-1] Handle missing values and convert date formats.
-2] Extract features like year, month, and week number.
-3] Normalize or scale numerical data.
+1] Handle missing values and convert date formats.2] Extract features like year, month, and week number.3] Normalize or scale numerical data.
 
 Exploratory Data Analysis (EDA):
 
